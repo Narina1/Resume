@@ -1,0 +1,123 @@
+body{
+    color: #000000;
+    background-color: rgb(240, 240, 221);
+}
+
+h1{
+   color: rgb(6, 36, 93); 
+}
+p{
+    color: rgb(42, 42, 115);
+}
+
+table{
+    color: rgb(9, 6, 93);
+}
+
+h2{
+    color: rgb(6, 36, 93); 
+}
+
+li{
+    color: rgb(9, 6, 93);  
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited{
+  color: gray;
+}
+
+  .card{
+    border: 10px solid rgb(240, 240, 221);
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+  }  
+  .card h2{
+    margin-bottom: 10px;
+  }
+
+  .info{
+    margin-bottom:20px;
+  }
+
+  @media (max-width: 650px) {
+    .info {
+        text-align: center;
+    }
+}
+
+  .info-text p {
+     font-style: italic;
+     font-weight: bold;
+     color: #86898f;
+     margin: 0;
+  }
+  .info-text h4 {
+    margin-bottom: 10px;
+  }
+
+  .bg-yellow{
+    background: rgb(248, 248, 180);
+  }
+
+  .bg-red{
+    background: rgb(241, 210, 210);
+  }
+    
+.btn{
+  background: grey;
+  padding: 10px 15px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0,8;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table  td:nth-child(2), .table  td:nth-child(3) {
+  color: #86898f;
+}

@@ -5,18 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta description content="Это сайт-резюме Нарины Маркеловой">
     <meta keywords content="Narina, cv, Resume">
+    <link rel="stylesheet" href="style.css">
     <title>Narina Resume</title>
+
 </head>
 <body>
-    <h1>Нарина Маркелова</h1>
-    <p>Я парикмахер с <strong>огромным опытом </strong> работы,</p>
-    <p> теперь осваиваю новую профессию <em> Frontend-разработчик.</em></p>
-
+    <div class="container">
+    <div class="info">
     <hr>
-    <h3>Local img</h3>
-    <img src="t3q-ivypS10.jpg" width="150">
+    <img src="avatar.jpg" class="avatar">
+    <div class="info-text">
+
+    <h1>Нарина Маркелова</h1>
+    <p><em>Я парикмахер с большим опытом работы,</em></p>
+    <p><em> теперь осваиваю новую профессию Frontend-разработчик.</em></p>
+
+
 
 <br>
+<h4>Список социальных сетей:</h4>
     <a href="https://vk.com/nari0406">Страница ВК</a>
 
 <br>
@@ -24,25 +31,30 @@
     <br>
     <a href="https://www.instagram.com/narina_markelova?igsh=MTlmZGx2ZmJkMzl2dw%3D%3D&utm_source=qr">Instagram</a>
 <hr>
+    </div>
+
+<div class="card bg-red">
 <h2>Мои хобби</h2>
 
-<ol>
+<ol class="list">
     <li>Сноуборд</li>
     <li>Велосипед</li>
     <li>Тренажерный зал</li>
     <li>Кулинария</li>
     
+
 </ol>
+</div>
 
-<h1>Опыт работы</h1>
-
-<table width="500">
-    <thead>
+<div class="card bg-yellow">
+<h2>Опыт работы</h2>
+<table class="table" width="500">
+    <!-- <thead>
 <tr>
     <th>Название работы</th>
     <th>Должность</th>
     <th>Период работы</th>
-</tr>
+</tr> -->
 </thead>
 <tbody>
 <tr>
@@ -61,14 +73,13 @@
     <td>2021-по настоящее время</td>
 </tr>
 </tbody>
-
-
-
-
 </table>
-<h1>
+</div>
+
+
+<h2>
     Связаться со мной
-</h1>
+</h2>
 <div>
     <label for="Name">Ваше имя:</label>
     <input type="Name" id="Name" placeholder="Введите имя">
@@ -88,13 +99,13 @@
         <textarea id="massage" cols="25" rows="5" placeholder="Введите сообщение"></textarea>
     </div>   
 
-    <!-- <imput type="submit" value="Отправить форму" -->
-  <button type="submit">Отправить</button>
+     <!-- <imput type="submit" value="Отправить форму"></imput> -->
+  <button class="btn" type="submit">Отправить</button>
 
 
 
     
     
-    
+    </div> 
 </body>
 </html>
